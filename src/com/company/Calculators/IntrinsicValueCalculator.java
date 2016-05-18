@@ -21,8 +21,6 @@ public class IntrinsicValueCalculator {
         Double extra = Math.pow((1 + tenYearFederalNote), years);
 
         Double c = cashTakenOutOfBusiness * (1 - (1 / extra)) / tenYearFederalNote + parr / extra;
-
-
         return c;
     }
 }
