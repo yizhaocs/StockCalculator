@@ -3,9 +3,11 @@ package com.company;
 import com.company.Calculators.AverageBookValueChangeCalculator;
 import com.company.Calculators.BondCalculator;
 import com.company.Calculators.IntrinsicValueCalculator;
+import com.company.Calculators.YieldToMaturityYTMCalculator;
 import com.company.Model.AverageBookValueChange;
 import com.company.Model.BondPrice;
 import com.company.Model.IntrinsicValue;
+import com.company.Model.YieldToMaturity;
 
 public class Main {
 
@@ -52,6 +54,14 @@ public class Main {
         BondCalculator mBondCalculator = new BondCalculator();
         System.out.println("Bond Price: $" + mBondCalculator.cal(mBondPrice)); // $1169.8371463269107
 
+        /*
+        * Yield To Maturity
+        * */
+
+        YieldToMaturity mYieldToMaturity = new YieldToMaturity();
+
+        YieldToMaturityYTMCalculator mYieldToMaturityYTMCalculator = new YieldToMaturityYTMCalculator();
+        System.out.println("Yield to Maturity: " + mYieldToMaturityYTMCalculator.cal(mYieldToMaturity));
     }
 
 
