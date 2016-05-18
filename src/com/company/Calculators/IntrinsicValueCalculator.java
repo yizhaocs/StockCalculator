@@ -10,7 +10,7 @@ public class IntrinsicValueCalculator {
         Double cashTakenOutOfBusiness = mIntrinsicValue.getCashTakenOutOfBusiness();
         Double currentBookValue = mIntrinsicValue.getCurrentBookValue();
         Double averagePercentChangeInBookValuePerYear = mIntrinsicValue.getAveragePercentChangeInBookValuePerYear();
-        Integer years = mIntrinsicValue.getYears();
+        Double years = mIntrinsicValue.getYears();
         Double tenYearFederalNote = mIntrinsicValue.getTenYearFederalNote();
 
         Double perc = (1 + averagePercentChangeInBookValuePerYear / 100);
