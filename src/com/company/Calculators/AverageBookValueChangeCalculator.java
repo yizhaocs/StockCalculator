@@ -4,7 +4,8 @@ import com.company.Model.AverageBookValueChange;
 import com.company.Model.IntrinsicValue;
 
 /**
- * Created by yzfun on 5/17/16.
+ * LESSON 21 WARREN BUFFETT'S 4TH RULE: INTRINSIC VALUE CALCULATOR
+ * http://buffettsbooks.com/howtoinvestinstocks/course2/stocks/intrinsic-value-calculator.html#sthash.0i6iAOlw.dpbs
  */
 public class AverageBookValueChangeCalculator {
 /*

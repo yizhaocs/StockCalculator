@@ -3,7 +3,8 @@ package com.company.Calculators;
 import com.company.Model.BondPrice;
 
 /**
- * Created by yzfun on 5/17/16.
+ * LESSON 16 BOND CALCULATOR
+ * http://buffettsbooks.com/howtoinvestinstocks/course2/bonds/bond-calculator.html#sthash.lMABJk6g.euQEdWVQ.dpbs
  */
 public class BondCalculator {
     /*
